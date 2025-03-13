@@ -1,0 +1,29 @@
+<div id="fw_rgpd_popup">
+
+	<h1>{{fowebrgpd.popup_title}}</h1>
+
+	<p>{{fowebrgpd.popup_description}}</p>
+	
+	{% for section in fowebrgpd.sections  %}
+
+	<div id="fw_rgpd_section_{{section.key}}" class="fw_rgpd_section_container">	
+		<h2>{{section.name}}</h2>
+
+		{# 
+		 # Here you can access to {{section.description}} and {{section.title}}	to explain what your cookie is used for
+		 # {{section}} contain somes other vars like "key" (defined in config file), "acceptance_value", "value" and "raw_value"
+		 #}
+
+		<label class="fw_rgpd_switch">
+		  <input type="checkbox" class="fw_rgpd_switch_input" data-key="{{section.key}}" {% if true is same as section.value %}checked{% endif %}>
+		  <span class="fw_rgpd_slider"></span>
+		</label>
+
+	</div>	
+	{% endfor %}	
+
+	
+	<div class="fw_rgpd_button_container">
+		<button class="fw_rgpd_button" id="fw_rgpd_close_popup" onclick="closeFwRGPDPopup()">Sauvegarder et fermer</button>
+	</div>	
+</div>

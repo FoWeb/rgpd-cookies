@@ -1,0 +1,28 @@
+foweb_rgpd_cookies:
+  is_active: false
+  # theme_views_folder: "views/foweb/rgpdcookies/" | string
+  # site_privacy_page: string | URL
+  # site_cookies_page: string | URL
+  # site_url: string | URL
+  acceptance_value: 1
+  refusal_value: 0
+  cookies_prefix: "_foweb_rgpd_"
+  # expiration_days: 365 | integer (days)
+  # domain: string
+  # popup_title: string
+  # popup_description: string
+  # expiration_days: "Cookies global TTL, in days"
+  # style: "Custom stylesheet filename (from template)"
+  # script: "Custom script filename (from template)"  
+  # auto_register_style: true|false
+  # auto_register_script: true|false
+  # position: bottom|left|full|top|right
+
+  sections:
+    #- name: string 
+      # description: string
+      # key: string
+      # expiration_days: int | Custom day delay value | Optional
+      # cookie_prefix: string | Custom cookie prefix | Optional
+      # acceptance_value: string | Custom acceptance value | Optional
+      # refusal_value: string | Custom refusal value | Optional

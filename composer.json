@@ -1,0 +1,25 @@
+{
+	"name": "foweb/rgpd-cookies",
+	"description": "Provide RGPD Cookies system for FoWeb environment",
+	"version": "0.0.2",
+	"keywords":[
+		"RGPD",
+		"Cookies",
+		"Wordpress",
+		"FoWeb",
+		"Timber",
+		"Twig"
+	],
+	"license": "MIT",
+	"require": {
+		"timber/timber": "2.1.0",
+		"php": "^7.2",
+		"symfony/yaml": "^5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"FoWeb\\RgpdCookies\\": "src/"
+		},
+		"files": ["rgpd-cookies.php"]
+	}
+}
