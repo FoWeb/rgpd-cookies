@@ -13,7 +13,7 @@
 	"license": "MIT",
 	"require": {
 		"timber/timber": "2.1.0",
-		"php": "^7.2",
+		"php": "^7.2 || ^8.0",
 		"symfony/yaml": "^5.4"
 	},
 	"autoload": {
