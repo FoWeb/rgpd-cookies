@@ -1,7 +1,7 @@
 {
 	"name": "foweb/rgpd-cookies",
 	"description": "Provide RGPD Cookies system for FoWeb environment",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"keywords":[
 		"RGPD",
 		"Cookies",
@@ -13,7 +13,7 @@
 	"license": "MIT",
 	"require": {
 		"timber/timber": "2.1.0",
-		"php": "^7.2 || ^8.0",
+		"php": "^8.4",
 		"symfony/yaml": "^5.4"
 	},
 	"autoload": {

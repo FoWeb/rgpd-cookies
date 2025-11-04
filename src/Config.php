@@ -110,7 +110,7 @@ class Config{
 
             // Check if the cookie exists
             $cookieKey = $prefix . $section['key'];
-            if (isset($_COOKIE[$cookieKey])) {
+            if ($_COOKIE[$cookieKey] ?? false) {
                 // Set acceptance value and determine section values based on the cookie
                 $section['acceptance_value'] = $section['acceptance_value'] ?? $options['acceptance_value'];
                 $section['value']            = ($_COOKIE[$cookieKey] == $section['acceptance_value']);
