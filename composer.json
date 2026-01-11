@@ -1,7 +1,7 @@
 {
 	"name": "foweb/rgpd-cookies",
 	"description": "Provide RGPD Cookies system for FoWeb environment",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"keywords":[
 		"RGPD",
 		"Cookies",
